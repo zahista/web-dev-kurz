@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Číslo objednávky</th>
+                <th>Hodnota</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>12653</td>
+                <td>tomas.marny@mail.cz</td>
+                <td>1 500,00 Kč</td>
+            </tr>
+            <tr>
+                <td>12354</td>
+                <td>petra.novakova@mail.cz</td>
+                <td>850,00 Kč</td>
+            </tr>
+            <tr>
+                <td>12355</td>
+                <td>jan.rychly@mail.cz</td>
+                <td>1 200,00 Kč</td>
+            </tr>
+            <tr>
+                <td>12356</td>
+                <td>jiri.novy@mail.cz</td>
+                <td>500,00 Kč</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>Hodnota celkem:</td>
+                <td>4 050,00 Kč</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <form action="#" method="POST">
+        <input type="text" placeholder="Jméno a příjmení">
+        <input type="email" placeholder="E-mail">
+
+        <label for="email">Přihlašovací email</label>
+        <input type="email" name="email" placeholder="jmeno@email.cz" value="zahista@gmail.com">
+
+        <label for="password">Heslo</label>
+        <input id="password" type="password" name="password">
+
+        <label for="terms" class="checkbox-and-radio-label">
+            <input id="terms" type="checkbox" name="terms"> Souhlasím s podmínkami použití aplikace
+        </label>
+        <label for="terms" class="checkbox-and-radio-label">
+            <input id="terms" type="checkbox" name="terms"> Souhlasím s podmínkami použití aplikace
+        </label>
+        <label for="terms" class="checkbox-and-radio-label">
+            <input id="terms" type="checkbox" name="terms"> Souhlasím s podmínkami použití aplikace
+        </label>
+
+        <fieldset>
+            <legend>Zvolte druh předplatného</legend>
+            <label for="basic-plan" class="checkbox-and-radio-label">
+                <input id="basic-plan" type="radio" name="plan" value="basic"> Základní předplatné
+            </label>
+            <label for="pro-plan" class="checkbox-and-radio-label">
+                <input id="pro-plan" type="radio" name="plan" value="pro"> Profesionální předplatné
+            </label>
+            <label for="custom-plan" class="checkbox-and-radio-label">
+                <input id="custom-plan" type="radio" name="plan" value="premium"> Předplatné na míru
+            </label>
+        </fieldset>
+
+
+        <select id="subscription-length" name="sub-length">
+            <option value="1">1 měsíc</option>
+            <option value="6">6 měsíců</option>
+            <option value="12">12 měsíců</option>
+            <option value="24">24 měsíců</option>
+        </select>
+
+        <label for="subscription-start">Začátek předplatného</label>
+        <input id="subscription-start" type="week" name="sub-start">
+
+        <label for="amount">Počet kusů</label>
+        <input id="amount" type="number" name="amount" min="1" max="10">
+
+
+        <input type="search" name="search" placeholder="Co hledáte?">
+
+        <input type="file" name="file" accept="image/*">
+
+        <input type="hidden">
+
+        <input type="submit" value="Odeslat">
+    </form>
+
+
+    <header></header>
+
+    <nav></nav>
+
+    <main>
+        <div>
+            <article>
+                <header>
+                    <h1>snaspdaosjdk</h1>
+                </header>
+                <section>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio animi unde ipsam possimus
+                        odio! Sequi blanditiis, praesentium autem sapiente aspernatur ea voluptates esse asperiores
+                        soluta consectetur recusandae velit dolorum ab?</p>
+                </section>
+            </article>
+
+
+            <article>
+                <header></header>
+                <section></section>
+            </article>
+        </div>
+
+        <aside></aside>
+    </main>
+
+    <footer></footer>
+</body>
+
+</html>
